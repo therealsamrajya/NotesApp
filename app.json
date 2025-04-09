@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "NotesApp",
-    "slug": "NotesApp",
+    "slug": "notesapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.samrajya.notesapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b6008704-55cc-4867-9678-3e253f8d8e29"
+      }
+    },
+    "owner": "samrajya"
   }
 }

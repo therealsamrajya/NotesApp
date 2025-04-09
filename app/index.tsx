@@ -1,3 +1,3 @@
 // app/index.tsx
-import RootLayout from "../App"; // adjust path if needed
+import RootLayout from "../App";
 export default RootLayout;
